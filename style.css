@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
+/* nav {
+  background-color: white;
+  color: black;
+} */
+
+/* nav ul li.active {
+  background-color: rgba(0, 0, 0, 0.1);
+} */
+
+/* .black-text li a, .black-text .brand-logo{
+  color: black;
+ } */
+
+ .LogoFont, nav .brand-logo {
+  font-family: 'Oleo Script', cursive;
+ }
+
+ nav .brand-logo {
+   padding-left: 15px;
+ }
+
+ #modal1 {
+  overflow-y: hidden;
+ }
+
+ .loginMain {
+   color: #808080;
+ }
+
+.page-footer {
+  color: black !important;
+  background-color: rgb(247, 246, 241);
+}
+
+.carousel {
+  height: 70vh !important;
+}
+/* .carousel {
+  min-height: 500px;
+} */
+
+.carousel.carousel-slider .carousel-fixed-item {
+  bottom: 30vh !important;
+}
+
+.ugh {
+  text-shadow: 6px 3px 8px rgba(68,68,68,0.76);
+}
+
+.carousel-item
+{
+  background-size : cover;
+  background-position: top;
+}
+
+.c1
+{
+  background-image : url('Img/style6.jpg');
+}
+
+.c2
+{
+  background-image : url('Img/style13.jpg');
+}
+
+.c3
+{
+  background-image : url('Img/style2.jpg');
+}
+
+ .c4
+{
+  background-image : url('Img/style4.jpg');
+}
+.c5
+{
+  background-image : url('Img/style5.jpg');
+}
+.c6
+{
+  background-image : url('Img/style22.jpg');
+}
+.c7
+{
+  background-image : url('Img/style7.jpg');
+}
+
+.modal {
+  height: 410px;
+  width:400px;
+}
+
+
+/* dash css */
+.mainBody {
+  margin-top: 25px;
+}
